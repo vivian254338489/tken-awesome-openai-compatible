@@ -36,6 +36,7 @@ for (const text of [
   "litellm-pricing-metadata-diff",
   "claude-desktop-mcp-config-doctor",
   "structured-output-compat-matrix",
+  "cursor-continue-openai-router-kit",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

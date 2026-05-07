@@ -55,6 +55,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Reproduce LiteLLM fallback and rate-limit behavior | [LiteLLM Fallback Rate Limit Lab](https://github.com/vivian254338489/litellm-fallback-rate-limit-lab) |
 | Generate Continue/VS Code assistant configs | [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) |
 | Prepare Cursor-style provider setup notes | [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) |
+| Route coding tasks across Cursor and Continue configs | [Cursor Continue OpenAI Router Kit](https://github.com/vivian254338489/cursor-continue-openai-router-kit) |
 | Prepare Claude Desktop MCP endpoint config | [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) |
 | Prepare MCP directory submission materials | [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
@@ -108,6 +109,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) - Continue/VS Code-style config examples.
 - [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) - offline Continue/VS Code-style config JSON, embeddings notes, env examples, and smoke tests.
 - [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) - offline Cursor-style provider setup notes, model aliases, env examples, and smoke tests.
+- [Cursor Continue OpenAI Router Kit](https://github.com/vivian254338489/cursor-continue-openai-router-kit) - offline config generator and routing policy fixtures for Cursor/Continue-style coding model routes through compatible gateways.
 - [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) - local MCP config snippets, endpoint readiness notes, smoke tests, and safety checklist.
 - [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) - validated MCPB extension starter with gateway notes, smoke-test commands, and release asset packaging.
 - [Claude Desktop MCP Config Doctor](https://github.com/vivian254338489/claude-desktop-mcp-config-doctor) - offline validator and templates for `claude_desktop_config.json`, MCP command paths, env placeholders, and Windows/macOS setup notes.

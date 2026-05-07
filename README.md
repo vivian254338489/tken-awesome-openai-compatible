@@ -30,6 +30,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Generate MCP client configs for a compatible gateway | [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) |
 | Package a Claude Desktop MCPB extension | [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
+| Connect Open WebUI to a unified gateway | [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) |
 | Produce an OpenAI-compatible API conformance report | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) |
 | Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
@@ -73,7 +74,7 @@ Use this list as a workflow map, not only a catalog:
 | Validate a new `base_url` | API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> MCP server -> Claude Desktop MCP bridge kit |
-| Add a Web UI to a gateway | Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
+| Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
 | Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> model router bench lite -> health monitor -> status page template |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
@@ -124,6 +125,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) - offline LiteLLM-style provider YAML, fallback notes, env examples, and smoke tests.
 - [LiteLLM Fallback Rate Limit Lab](https://github.com/vivian254338489/litellm-fallback-rate-limit-lab) - local lab for 429, timeout, server error, retry, and fallback route behavior before production rollout.
 - [Open WebUI OpenAI-Compatible Connections](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) - setup guide for connecting Open WebUI to compatible cloud providers, local servers, and gateway URLs.
+- [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) - Docker Compose starter, sanitized config generator, and smoke-test checklist for connecting Open WebUI to a unified compatible gateway.
 - [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) - provider-neutral Open WebUI recipes for compatible gateway base URLs, safe environment examples, and troubleshooting.
 - [Vercel AI Gateway OpenAI-Compatible API](https://vercel.com/docs/ai-gateway/openai-compat) - OpenAI-compatible gateway endpoint for using existing OpenAI SDK clients with Vercel AI Gateway.
 - [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) - OpenAI-compatible gateway with observability, routing, and fallback workflows.

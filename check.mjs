@@ -25,6 +25,8 @@ for (const text of [
   "Disclosure",
   "openai-compatible-mcp-server",
   "agent-skills-openai-compatible-pack",
+  "openai-compatible-agent-memory-kit",
+  "browser-use-openai-compatible-operator-kit",
   "openai-compatible-json-mode-validator",
   "openai-compatible-rate-limit-retry-kit",
   "https://docs.litellm.ai/",

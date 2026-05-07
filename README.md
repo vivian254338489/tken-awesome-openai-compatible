@@ -34,6 +34,8 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
 | Give agents an MCP endpoint diagnostic tool | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) |
 | Copy agent skills/rules for compatible endpoints | [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) |
+| Store local agent memory and context notes | [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) |
+| Plan safe browser-use/operator workflows | [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
@@ -66,6 +68,8 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 - [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) - Continue/VS Code-style config examples.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.
+- [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) - local-first JSONL/Markdown memory for endpoint notes, model routes, prompt preferences, and context engineering.
+- [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) - offline browser operator planning templates with safety checks for OpenAI-compatible agent workflows.
 - [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) - LangChain JS/Python custom OpenAI-compatible base URL examples.
 - [TKEN Codex Client Kit](https://github.com/vivian254338489/tken-codex-client-kit) - Codex-style client config kit.
 - [TKEN OpenClaw Client Kit](https://github.com/vivian254338489/tken-openclaw-client-kit) - OpenClaw-style provider config kit.

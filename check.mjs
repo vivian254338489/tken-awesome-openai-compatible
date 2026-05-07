@@ -26,6 +26,7 @@ for (const text of [
   "Disclosure",
   "openai-compatible-agent-tooling-landing",
   "mcp-openai-gateway-starter",
+  "fastmcp-openai-compatible-tool-router-kit",
   "claude-desktop-mcpb-starter",
   "open-webui-gateway-recipes",
   "litellm-fallback-rate-limit-lab",

@@ -28,6 +28,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | --- | --- |
 | Browse agent, MCP, and OpenAI-compatible tooling by workflow | [OpenAI-Compatible Agent Tooling Landing](https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/) |
 | Generate MCP client configs for a compatible gateway | [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) |
+| Plan FastMCP tool routing to a compatible gateway | [FastMCP OpenAI-Compatible Tool Router Kit](https://github.com/vivian254338489/fastmcp-openai-compatible-tool-router-kit) |
 | Package a Claude Desktop MCPB extension | [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
 | Connect Open WebUI to a unified gateway | [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) |
@@ -80,7 +81,7 @@ Use this list as a workflow map, not only a catalog:
 | Workflow | Useful sequence |
 | --- | --- |
 | Validate a new `base_url` | API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
-| Debug agent tool calls | MCP tool schema lab -> MCP tool schema budget kit -> tool-call replay lab -> streaming/tool-call checks -> API conformance kit |
+| Debug agent tool calls | FastMCP tool router kit -> MCP tool schema lab -> MCP tool schema budget kit -> tool-call replay lab -> streaming/tool-call checks -> API conformance kit |
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
@@ -119,6 +120,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) - validated MCPB extension starter with gateway notes, smoke-test commands, and release asset packaging.
 - [Claude Desktop MCP Config Doctor](https://github.com/vivian254338489/claude-desktop-mcp-config-doctor) - offline validator and templates for `claude_desktop_config.json`, MCP command paths, env placeholders, and Windows/macOS setup notes.
 - [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) - MCP workspace for Claude Desktop, Cursor, Continue, compatible gateway profiles, and smoke-test plans.
+- [FastMCP OpenAI-Compatible Tool Router Kit](https://github.com/vivian254338489/fastmcp-openai-compatible-tool-router-kit) - offline allowlist, tag, priority, and route-profile examples for planning FastMCP-style tools through compatible gateways.
 - [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) - transparent directory listing drafts, awesome-list PR bodies, disclosure wording, and submission checklists.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [MCP To OpenAI Tool Schema Lab](https://github.com/vivian254338489/mcp-to-openai-tool-schema-lab) - schema playground for converting and validating MCP tool schemas as OpenAI-style function/tool fixtures.

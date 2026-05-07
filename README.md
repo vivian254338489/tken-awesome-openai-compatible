@@ -33,6 +33,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
+| Edit model pricing metadata and budget-routing notes | [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
 | Add fallback between providers/models | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) |
 | Configure LiteLLM routing and fallback | [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) |
@@ -72,7 +73,7 @@ Use this list as a workflow map, not only a catalog:
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
-| Estimate before routing production traffic | Cost calculator -> model router bench lite -> health monitor -> status page template |
+| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> model router bench lite -> health monitor -> status page template |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
 Each route should still be tested against the provider docs, terms, pricing, rate limits, and feature support you actually plan to use.
@@ -137,6 +138,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 ## Cost, Monitoring, And Troubleshooting
 
 - [AI API Cost Calculator](https://github.com/vivian254338489/tken-ai-api-cost-calculator) - static calculator, live demo included.
+- [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) - editable model metadata, example pricing table, and budget-routing notes for compatible gateways.
 - [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
 - [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) - JSON mode, structured output, and schema validation compatibility checks.
 - [JSON Mode Structured Output Cookbook](https://github.com/vivian254338489/json-mode-structured-output-cookbook) - provider-neutral recipes for valid JSON parsing, schema validation, and narrow repair prompts across compatible gateways.

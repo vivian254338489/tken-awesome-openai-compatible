@@ -32,6 +32,9 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Build a FastAPI compatible gateway | [TKEN FastAPI AI Gateway Starter](https://github.com/vivian254338489/tken-fastapi-ai-gateway-starter) |
 | Connect LangChain to a custom endpoint | [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) |
 | Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
+| Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
+| Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
+| Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
 | Connect Open WebUI | [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) |
 | Configure VS Code / Continue | [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) |
 | Use DeepSeek/Qwen-style models from compatible clients | [DeepSeek/Qwen OpenAI-Compatible Guide](https://github.com/vivian254338489/deepseek-qwen-openai-compatible-guide) |
@@ -47,6 +50,9 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 
 - [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) - task routing, fallback, custom base URLs, SDK migration, security checks.
 - [TKEN OpenAI-Compatible Examples](https://github.com/vivian254338489/tken-openai-compatible-examples) - Node.js, Python, and cURL examples.
+- [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) - embeddings, vector search, and RAG starter examples.
+- [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) - streaming SSE, tool calls, JSON mode, and custom base URL checks.
+- [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) - model list, chat, embeddings, and streaming smoke-test matrix.
 - [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) - editable estimator for routing tradeoffs. Not a benchmark.
 - [TKEN LLM Routing Recipes](https://github.com/vivian254338489/tken-llm-routing-recipes) - route simple work to low-cost routes and harder work to premium routes.
 - [TKEN Free Model Fallback Recipes](https://github.com/vivian254338489/tken-free-model-fallback-recipes) - fallback and premium escalation patterns.

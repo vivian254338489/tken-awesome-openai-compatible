@@ -37,6 +37,7 @@ for (const text of [
   "claude-desktop-mcp-config-doctor",
   "structured-output-compat-matrix",
   "cursor-continue-openai-router-kit",
+  "mcp-to-openai-tool-schema-lab",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

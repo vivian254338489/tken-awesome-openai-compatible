@@ -45,6 +45,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
 | Validate Claude Desktop MCP config before restart | [Claude Desktop MCP Config Doctor](https://github.com/vivian254338489/claude-desktop-mcp-config-doctor) |
 | Give agents an MCP endpoint diagnostic tool | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) |
+| Convert MCP schemas into OpenAI-style tool fixtures | [MCP To OpenAI Tool Schema Lab](https://github.com/vivian254338489/mcp-to-openai-tool-schema-lab) |
 | Copy agent skills/rules for compatible endpoints | [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) |
 | Store local agent memory and context notes | [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) |
 | Plan safe browser-use/operator workflows | [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) |
@@ -116,6 +117,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) - MCP workspace for Claude Desktop, Cursor, Continue, compatible gateway profiles, and smoke-test plans.
 - [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) - transparent directory listing drafts, awesome-list PR bodies, disclosure wording, and submission checklists.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
+- [MCP To OpenAI Tool Schema Lab](https://github.com/vivian254338489/mcp-to-openai-tool-schema-lab) - schema playground for converting and validating MCP tool schemas as OpenAI-style function/tool fixtures.
 - [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.
 - [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) - local-first JSONL/Markdown memory for endpoint notes, model routes, prompt preferences, and context engineering.
 - [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) - offline browser operator planning templates with safety checks for OpenAI-compatible agent workflows.

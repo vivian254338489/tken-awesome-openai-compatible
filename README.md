@@ -36,12 +36,14 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
 | Edit model pricing metadata and budget-routing notes | [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) |
+| Diff LiteLLM-style pricing and metadata snapshots | [LiteLLM Pricing Metadata Diff](https://github.com/vivian254338489/litellm-pricing-metadata-diff) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
 | Add fallback between providers/models | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) |
 | Configure LiteLLM routing and fallback | [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) |
 | Build a FastAPI compatible gateway | [TKEN FastAPI AI Gateway Starter](https://github.com/vivian254338489/tken-fastapi-ai-gateway-starter) |
 | Connect LangChain to a custom endpoint | [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) |
 | Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
+| Validate Claude Desktop MCP config before restart | [Claude Desktop MCP Config Doctor](https://github.com/vivian254338489/claude-desktop-mcp-config-doctor) |
 | Give agents an MCP endpoint diagnostic tool | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) |
 | Copy agent skills/rules for compatible endpoints | [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) |
 | Store local agent memory and context notes | [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) |
@@ -75,7 +77,7 @@ Use this list as a workflow map, not only a catalog:
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
-| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> model router bench lite -> health monitor -> status page template |
+| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> LiteLLM pricing metadata diff -> model router bench lite -> health monitor -> status page template |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
 Each route should still be tested against the provider docs, terms, pricing, rate limits, and feature support you actually plan to use.
@@ -107,6 +109,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) - offline Cursor-style provider setup notes, model aliases, env examples, and smoke tests.
 - [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) - local MCP config snippets, endpoint readiness notes, smoke tests, and safety checklist.
 - [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) - validated MCPB extension starter with gateway notes, smoke-test commands, and release asset packaging.
+- [Claude Desktop MCP Config Doctor](https://github.com/vivian254338489/claude-desktop-mcp-config-doctor) - offline validator and templates for `claude_desktop_config.json`, MCP command paths, env placeholders, and Windows/macOS setup notes.
 - [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) - MCP workspace for Claude Desktop, Cursor, Continue, compatible gateway profiles, and smoke-test plans.
 - [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) - transparent directory listing drafts, awesome-list PR bodies, disclosure wording, and submission checklists.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
@@ -124,6 +127,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [LiteLLM](https://docs.litellm.ai/) - proxy and SDK for using many LLM providers through OpenAI-style request and response formats, with routing, retry, fallback, and spend controls.
 - [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) - offline LiteLLM-style provider YAML, fallback notes, env examples, and smoke tests.
 - [LiteLLM Fallback Rate Limit Lab](https://github.com/vivian254338489/litellm-fallback-rate-limit-lab) - local lab for 429, timeout, server error, retry, and fallback route behavior before production rollout.
+- [LiteLLM Pricing Metadata Diff](https://github.com/vivian254338489/litellm-pricing-metadata-diff) - offline diff CLI for model price, context window, and capability metadata snapshots. Example values must be verified against current provider docs.
 - [Open WebUI OpenAI-Compatible Connections](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) - setup guide for connecting Open WebUI to compatible cloud providers, local servers, and gateway URLs.
 - [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) - Docker Compose starter, sanitized config generator, and smoke-test checklist for connecting Open WebUI to a unified compatible gateway.
 - [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) - provider-neutral Open WebUI recipes for compatible gateway base URLs, safe environment examples, and troubleshooting.

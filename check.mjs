@@ -33,6 +33,8 @@ for (const text of [
   "ai-gateway-pricing-metadata-kit",
   "openai-compatible-api-conformance-kit",
   "openwebui-tokenflow-starter",
+  "litellm-pricing-metadata-diff",
+  "claude-desktop-mcp-config-doctor",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

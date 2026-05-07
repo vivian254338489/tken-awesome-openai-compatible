@@ -30,6 +30,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Generate MCP client configs for a compatible gateway | [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) |
 | Package a Claude Desktop MCPB extension | [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
+| Produce an OpenAI-compatible API conformance report | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) |
 | Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
@@ -69,7 +70,7 @@ Use this list as a workflow map, not only a catalog:
 
 | Workflow | Useful sequence |
 | --- | --- |
-| Validate a new `base_url` | Endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
+| Validate a new `base_url` | API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
@@ -89,6 +90,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 
 - [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) - task routing, fallback, custom base URLs, SDK migration, security checks.
 - [TKEN OpenAI-Compatible Examples](https://github.com/vivian254338489/tken-openai-compatible-examples) - Node.js, Python, and cURL examples.
+- [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) - offline-first smoke-test matrix for custom `base_url`, model compatibility, streaming, JSON, embeddings, tools, and error behavior.
 - [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) - embeddings, vector search, and RAG starter examples.
 - [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) - streaming SSE, tool calls, JSON mode, and custom base URL checks.
 - [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) - model list, chat, embeddings, and streaming smoke-test matrix.

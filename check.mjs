@@ -31,6 +31,7 @@ for (const text of [
   "litellm-fallback-rate-limit-lab",
   "json-mode-structured-output-cookbook",
   "ai-gateway-pricing-metadata-kit",
+  "openai-compatible-api-conformance-kit",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

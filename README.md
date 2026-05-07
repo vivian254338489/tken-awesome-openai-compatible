@@ -27,6 +27,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Need | Start here |
 | --- | --- |
 | Browse agent, MCP, and OpenAI-compatible tooling by workflow | [OpenAI-Compatible Agent Tooling Landing](https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/) |
+| Generate MCP client configs for a compatible gateway | [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
 | Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
@@ -97,6 +98,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) - offline Continue/VS Code-style config JSON, embeddings notes, env examples, and smoke tests.
 - [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) - offline Cursor-style provider setup notes, model aliases, env examples, and smoke tests.
 - [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) - local MCP config snippets, endpoint readiness notes, smoke tests, and safety checklist.
+- [MCP OpenAI Gateway Starter](https://github.com/vivian254338489/mcp-openai-gateway-starter) - MCP workspace for Claude Desktop, Cursor, Continue, compatible gateway profiles, and smoke-test plans.
 - [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) - transparent directory listing drafts, awesome-list PR bodies, disclosure wording, and submission checklists.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.

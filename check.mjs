@@ -25,6 +25,7 @@ for (const text of [
   "tken-one-click-ai-stack",
   "Disclosure",
   "openai-compatible-agent-tooling-landing",
+  "mcp-openai-gateway-starter",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

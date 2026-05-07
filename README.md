@@ -42,6 +42,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Generate Continue/VS Code assistant configs | [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) |
 | Prepare Cursor-style provider setup notes | [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) |
 | Prepare Claude Desktop MCP endpoint config | [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) |
+| Prepare MCP directory submission materials | [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
@@ -76,6 +77,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 - [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) - offline Continue/VS Code-style config JSON, embeddings notes, env examples, and smoke tests.
 - [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) - offline Cursor-style provider setup notes, model aliases, env examples, and smoke tests.
 - [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) - local MCP config snippets, endpoint readiness notes, smoke tests, and safety checklist.
+- [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) - transparent directory listing drafts, awesome-list PR bodies, disclosure wording, and submission checklists.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.
 - [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) - local-first JSONL/Markdown memory for endpoint notes, model routes, prompt preferences, and context engineering.

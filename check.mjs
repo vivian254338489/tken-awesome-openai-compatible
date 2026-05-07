@@ -33,6 +33,7 @@ for (const text of [
   "continue-openai-compatible-config-wizard",
   "cursor-openai-compatible-config-wizard",
   "claude-desktop-mcp-openai-compatible-bridge-kit",
+  "mcp-server-directory-submission-kit",
   "openai-compatible-json-mode-validator",
   "openai-compatible-rate-limit-retry-kit",
   "https://docs.litellm.ai/",

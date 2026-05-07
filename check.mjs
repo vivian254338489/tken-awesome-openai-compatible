@@ -28,6 +28,7 @@ for (const text of [
   "mcp-openai-gateway-starter",
   "claude-desktop-mcpb-starter",
   "open-webui-gateway-recipes",
+  "litellm-fallback-rate-limit-lab",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

@@ -47,6 +47,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Connect Open WebUI to compatible gateways | [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) |
 | Decide which model route fits a task | [OpenAI-Compatible Model Route Decider](https://github.com/vivian254338489/openai-compatible-model-route-decider) |
 | Generate LiteLLM provider/fallback configs | [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) |
+| Reproduce LiteLLM fallback and rate-limit behavior | [LiteLLM Fallback Rate Limit Lab](https://github.com/vivian254338489/litellm-fallback-rate-limit-lab) |
 | Generate Continue/VS Code assistant configs | [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) |
 | Prepare Cursor-style provider setup notes | [Cursor OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/cursor-openai-compatible-config-wizard) |
 | Prepare Claude Desktop MCP endpoint config | [Claude Desktop MCP OpenAI-Compatible Bridge Kit](https://github.com/vivian254338489/claude-desktop-mcp-openai-compatible-bridge-kit) |
@@ -117,6 +118,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 
 - [LiteLLM](https://docs.litellm.ai/) - proxy and SDK for using many LLM providers through OpenAI-style request and response formats, with routing, retry, fallback, and spend controls.
 - [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) - offline LiteLLM-style provider YAML, fallback notes, env examples, and smoke tests.
+- [LiteLLM Fallback Rate Limit Lab](https://github.com/vivian254338489/litellm-fallback-rate-limit-lab) - local lab for 429, timeout, server error, retry, and fallback route behavior before production rollout.
 - [Open WebUI OpenAI-Compatible Connections](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) - setup guide for connecting Open WebUI to compatible cloud providers, local servers, and gateway URLs.
 - [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) - provider-neutral Open WebUI recipes for compatible gateway base URLs, safe environment examples, and troubleshooting.
 - [Vercel AI Gateway OpenAI-Compatible API](https://vercel.com/docs/ai-gateway/openai-compat) - OpenAI-compatible gateway endpoint for using existing OpenAI SDK clients with Vercel AI Gateway.

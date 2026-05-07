@@ -36,6 +36,7 @@ for (const text of [
   "openai-compatible-api-conformance-kit",
   "openwebui-tokenflow-starter",
   "litellm-pricing-metadata-diff",
+  "llm-gateway-usage-observability-starter",
   "claude-desktop-mcp-config-doctor",
   "structured-output-compat-matrix",
   "cursor-continue-openai-router-kit",

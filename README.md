@@ -39,6 +39,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
 | Edit model pricing metadata and budget-routing notes | [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) |
 | Diff LiteLLM-style pricing and metadata snapshots | [LiteLLM Pricing Metadata Diff](https://github.com/vivian254338489/litellm-pricing-metadata-diff) |
+| Analyze gateway usage, costs, latency, and errors offline | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
 | Add fallback between providers/models | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) |
 | Configure LiteLLM routing and fallback | [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) |
@@ -86,7 +87,7 @@ Use this list as a workflow map, not only a catalog:
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
-| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> LiteLLM pricing metadata diff -> model router bench lite -> health monitor -> status page template |
+| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> LiteLLM pricing metadata diff -> usage observability starter -> model router bench lite -> health monitor -> status page template |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
 Each route should still be tested against the provider docs, terms, pricing, rate limits, and feature support you actually plan to use.
@@ -144,6 +145,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) - offline LiteLLM-style provider YAML, fallback notes, env examples, and smoke tests.
 - [LiteLLM Fallback Rate Limit Lab](https://github.com/vivian254338489/litellm-fallback-rate-limit-lab) - local lab for 429, timeout, server error, retry, and fallback route behavior before production rollout.
 - [LiteLLM Pricing Metadata Diff](https://github.com/vivian254338489/litellm-pricing-metadata-diff) - offline diff CLI for model price, context window, and capability metadata snapshots. Example values must be verified against current provider docs.
+- [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) - offline usage summaries, route counts, estimated cost rows, latency/error buckets, and redaction checklist for compatible gateway logs.
 - [Open WebUI OpenAI-Compatible Connections](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) - setup guide for connecting Open WebUI to compatible cloud providers, local servers, and gateway URLs.
 - [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) - Docker Compose starter, sanitized config generator, and smoke-test checklist for connecting Open WebUI to a unified compatible gateway.
 - [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) - provider-neutral Open WebUI recipes for compatible gateway base URLs, safe environment examples, and troubleshooting.

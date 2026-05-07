@@ -26,6 +26,7 @@ for (const text of [
   "Disclosure",
   "openai-compatible-agent-tooling-landing",
   "mcp-openai-gateway-starter",
+  "claude-desktop-mcpb-starter",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

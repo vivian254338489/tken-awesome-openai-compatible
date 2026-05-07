@@ -46,8 +46,11 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Validate Claude Desktop MCP config before restart | [Claude Desktop MCP Config Doctor](https://github.com/vivian254338489/claude-desktop-mcp-config-doctor) |
 | Give agents an MCP endpoint diagnostic tool | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) |
 | Convert MCP schemas into OpenAI-style tool fixtures | [MCP To OpenAI Tool Schema Lab](https://github.com/vivian254338489/mcp-to-openai-tool-schema-lab) |
+| Estimate MCP/OpenAI tool schema budget before routing | [MCP Tool Schema Budget Kit](https://github.com/vivian254338489/mcp-tool-schema-budget-kit) |
+| Replay OpenAI-compatible tool-call transcripts offline | [OpenAI-Compatible Tool Call Replay Lab](https://github.com/vivian254338489/openai-compatible-tool-call-replay-lab) |
 | Copy agent skills/rules for compatible endpoints | [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) |
 | Store local agent memory and context notes | [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) |
+| Move portable memory between agent tools | [Agent Memory Portability Kit](https://github.com/vivian254338489/agent-memory-portability-kit) |
 | Plan safe browser-use/operator workflows | [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) |
 | Generate Open WebUI provider setup files | [OpenWebUI OpenAI-Compatible Setup Wizard](https://github.com/vivian254338489/openwebui-openai-compatible-setup-wizard) |
 | Connect Open WebUI to compatible gateways | [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) |
@@ -77,8 +80,9 @@ Use this list as a workflow map, not only a catalog:
 | Workflow | Useful sequence |
 | --- | --- |
 | Validate a new `base_url` | API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
+| Debug agent tool calls | MCP tool schema lab -> MCP tool schema budget kit -> tool-call replay lab -> streaming/tool-call checks -> API conformance kit |
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
-| Set up a local operator or assistant | Agent skills pack -> agent memory kit -> MCP server -> Claude Desktop MCP bridge kit |
+| Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
 | Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> LiteLLM pricing metadata diff -> model router bench lite -> health monitor -> status page template |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
@@ -118,8 +122,11 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [MCP Server Directory Submission Kit](https://github.com/vivian254338489/mcp-server-directory-submission-kit) - transparent directory listing drafts, awesome-list PR bodies, disclosure wording, and submission checklists.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [MCP To OpenAI Tool Schema Lab](https://github.com/vivian254338489/mcp-to-openai-tool-schema-lab) - schema playground for converting and validating MCP tool schemas as OpenAI-style function/tool fixtures.
+- [MCP Tool Schema Budget Kit](https://github.com/vivian254338489/mcp-tool-schema-budget-kit) - offline schema size and approximate token budget reports for MCP and OpenAI-compatible tool bundles.
+- [OpenAI-Compatible Tool Call Replay Lab](https://github.com/vivian254338489/openai-compatible-tool-call-replay-lab) - offline replay and validation for tool-call transcripts before comparing gateway behavior.
 - [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.
 - [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) - local-first JSONL/Markdown memory for endpoint notes, model routes, prompt preferences, and context engineering.
+- [Agent Memory Portability Kit](https://github.com/vivian254338489/agent-memory-portability-kit) - tiny portable JSONL, Markdown, and MCP memory examples for Claude, Cursor, Open WebUI, and custom agent tools.
 - [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) - offline browser operator planning templates with safety checks for OpenAI-compatible agent workflows.
 - [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) - LangChain JS/Python custom OpenAI-compatible base URL examples.
 - [TKEN Codex Client Kit](https://github.com/vivian254338489/tken-codex-client-kit) - Codex-style client config kit.

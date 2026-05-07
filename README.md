@@ -36,6 +36,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Copy agent skills/rules for compatible endpoints | [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) |
 | Store local agent memory and context notes | [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) |
 | Plan safe browser-use/operator workflows | [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) |
+| Generate Open WebUI provider setup files | [OpenWebUI OpenAI-Compatible Setup Wizard](https://github.com/vivian254338489/openwebui-openai-compatible-setup-wizard) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
@@ -85,6 +86,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 - [LangChain ChatOpenAI custom base URL](https://docs.langchain.com/oss/javascript/integrations/chat/openai) - JavaScript ChatOpenAI configuration for compatible providers and proxies that use custom API base URLs.
 - [vLLM OpenAI-Compatible Server](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html) - local or hosted model server exposing OpenAI-compatible completions and chat APIs.
 - [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) - Open WebUI Pipelines connector.
+- [OpenWebUI OpenAI-Compatible Setup Wizard](https://github.com/vivian254338489/openwebui-openai-compatible-setup-wizard) - offline provider setup checklist, `.env` examples, and smoke tests for Open WebUI users.
 - [TKEN Open WebUI Provider Pack](https://github.com/vivian254338489/tken-openwebui-provider-pack) - Open WebUI-style provider settings.
 - [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) - LiteLLM-style low-cost default and premium fallback configs.
 - [TKEN Cloudflare Worker AI Proxy](https://github.com/vivian254338489/tken-cloudflare-worker-ai-proxy) - edge proxy template.

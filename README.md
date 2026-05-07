@@ -33,9 +33,12 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Connect LangChain to a custom endpoint | [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) |
 | Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
 | Give agents an MCP endpoint diagnostic tool | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) |
+| Copy agent skills/rules for compatible endpoints | [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
+| Validate JSON mode and structured outputs | [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) |
+| Add 429 retry, backoff, and fallback handling | [OpenAI-Compatible Rate Limit Retry Kit](https://github.com/vivian254338489/openai-compatible-rate-limit-retry-kit) |
 | Connect Open WebUI | [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) |
 | Configure VS Code / Continue | [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) |
 | Use DeepSeek/Qwen-style models from compatible clients | [DeepSeek/Qwen OpenAI-Compatible Guide](https://github.com/vivian254338489/deepseek-qwen-openai-compatible-guide) |
@@ -62,6 +65,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 
 - [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) - Continue/VS Code-style config examples.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
+- [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.
 - [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) - LangChain JS/Python custom OpenAI-compatible base URL examples.
 - [TKEN Codex Client Kit](https://github.com/vivian254338489/tken-codex-client-kit) - Codex-style client config kit.
 - [TKEN OpenClaw Client Kit](https://github.com/vivian254338489/tken-openclaw-client-kit) - OpenClaw-style provider config kit.
@@ -87,6 +91,8 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 
 - [AI API Cost Calculator](https://github.com/vivian254338489/tken-ai-api-cost-calculator) - static calculator, live demo included.
 - [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
+- [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) - JSON mode, structured output, and schema validation compatibility checks.
+- [OpenAI-Compatible Rate Limit Retry Kit](https://github.com/vivian254338489/openai-compatible-rate-limit-retry-kit) - 429, timeout, backoff, jitter, and fallback `base_url` examples.
 - [TKEN API Cost Calculator](https://github.com/vivian254338489/tken-api-cost-calculator) - compare premium-only usage against routed usage.
 - [TKEN API Health Monitor](https://github.com/vivian254338489/tken-api-health-monitor) - CLI and local status page.
 - [TKEN AI API Status Page Template](https://github.com/vivian254338489/tken-ai-api-status-page-template) - status page template.

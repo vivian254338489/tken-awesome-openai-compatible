@@ -29,6 +29,9 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
 | Add fallback between providers/models | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) |
 | Configure LiteLLM routing and fallback | [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) |
+| Build a FastAPI compatible gateway | [TKEN FastAPI AI Gateway Starter](https://github.com/vivian254338489/tken-fastapi-ai-gateway-starter) |
+| Connect LangChain to a custom endpoint | [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) |
+| Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
 | Connect Open WebUI | [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) |
 | Configure VS Code / Continue | [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) |
 | Use DeepSeek/Qwen-style models from compatible clients | [DeepSeek/Qwen OpenAI-Compatible Guide](https://github.com/vivian254338489/deepseek-qwen-openai-compatible-guide) |
@@ -51,6 +54,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 ## Client And Tool Config
 
 - [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) - Continue/VS Code-style config examples.
+- [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) - LangChain JS/Python custom OpenAI-compatible base URL examples.
 - [TKEN Codex Client Kit](https://github.com/vivian254338489/tken-codex-client-kit) - Codex-style client config kit.
 - [TKEN OpenClaw Client Kit](https://github.com/vivian254338489/tken-openclaw-client-kit) - OpenClaw-style provider config kit.
 - [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) - custom API base URL examples.
@@ -112,6 +116,10 @@ Avoid:
 - fake "official partner" language
 - hardcoded API keys
 - spammy directory stuffing
+
+Before suggesting a resource, read [CONTRIBUTING.md](CONTRIBUTING.md) and use the issue templates for resource suggestions or link/claim fixes.
+
+See [CURATION.md](CURATION.md) for inclusion standards, TKEN affiliation handling, review checks, removal rules, and public movement gates.
 
 ## Disclosure
 

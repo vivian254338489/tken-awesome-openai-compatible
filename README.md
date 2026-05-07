@@ -39,6 +39,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Generate Open WebUI provider setup files | [OpenWebUI OpenAI-Compatible Setup Wizard](https://github.com/vivian254338489/openwebui-openai-compatible-setup-wizard) |
 | Decide which model route fits a task | [OpenAI-Compatible Model Route Decider](https://github.com/vivian254338489/openai-compatible-model-route-decider) |
 | Generate LiteLLM provider/fallback configs | [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) |
+| Generate Continue/VS Code assistant configs | [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
@@ -70,6 +71,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 ## Client And Tool Config
 
 - [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) - Continue/VS Code-style config examples.
+- [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) - offline Continue/VS Code-style config JSON, embeddings notes, env examples, and smoke tests.
 - [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [Agent Skills OpenAI-Compatible Pack](https://github.com/vivian254338489/agent-skills-openai-compatible-pack) - Codex skills, Claude skill notes, Cursor rules, Gemini instructions, and prompts for compatible `base_url` workflows.
 - [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) - local-first JSONL/Markdown memory for endpoint notes, model routes, prompt preferences, and context engineering.

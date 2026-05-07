@@ -30,6 +30,7 @@ for (const text of [
   "openwebui-openai-compatible-setup-wizard",
   "openai-compatible-model-route-decider",
   "litellm-openai-compatible-config-wizard",
+  "continue-openai-compatible-config-wizard",
   "openai-compatible-json-mode-validator",
   "openai-compatible-rate-limit-retry-kit",
   "https://docs.litellm.ai/",

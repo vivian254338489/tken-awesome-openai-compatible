@@ -29,6 +29,7 @@ for (const text of [
   "claude-desktop-mcpb-starter",
   "open-webui-gateway-recipes",
   "litellm-fallback-rate-limit-lab",
+  "json-mode-structured-output-cookbook",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

@@ -37,6 +37,8 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Store local agent memory and context notes | [OpenAI-Compatible Agent Memory Kit](https://github.com/vivian254338489/openai-compatible-agent-memory-kit) |
 | Plan safe browser-use/operator workflows | [Browser-Use OpenAI-Compatible Operator Kit](https://github.com/vivian254338489/browser-use-openai-compatible-operator-kit) |
 | Generate Open WebUI provider setup files | [OpenWebUI OpenAI-Compatible Setup Wizard](https://github.com/vivian254338489/openwebui-openai-compatible-setup-wizard) |
+| Decide which model route fits a task | [OpenAI-Compatible Model Route Decider](https://github.com/vivian254338489/openai-compatible-model-route-decider) |
+| Generate LiteLLM provider/fallback configs | [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
@@ -60,6 +62,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 - [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) - embeddings, vector search, and RAG starter examples.
 - [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) - streaming SSE, tool calls, JSON mode, and custom base URL checks.
 - [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) - model list, chat, embeddings, and streaming smoke-test matrix.
+- [OpenAI-Compatible Model Route Decider](https://github.com/vivian254338489/openai-compatible-model-route-decider) - offline route recommendations by task, budget preference, latency preference, JSON, vision, and tool-call needs.
 - [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) - editable estimator for routing tradeoffs. Not a benchmark.
 - [TKEN LLM Routing Recipes](https://github.com/vivian254338489/tken-llm-routing-recipes) - route simple work to low-cost routes and harder work to premium routes.
 - [TKEN Free Model Fallback Recipes](https://github.com/vivian254338489/tken-free-model-fallback-recipes) - fallback and premium escalation patterns.
@@ -80,6 +83,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 ## Open WebUI, LiteLLM, And Gateways
 
 - [LiteLLM](https://docs.litellm.ai/) - proxy and SDK for using many LLM providers through OpenAI-style request and response formats, with routing, retry, fallback, and spend controls.
+- [LiteLLM OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/litellm-openai-compatible-config-wizard) - offline LiteLLM-style provider YAML, fallback notes, env examples, and smoke tests.
 - [Open WebUI OpenAI-Compatible Connections](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) - setup guide for connecting Open WebUI to compatible cloud providers, local servers, and gateway URLs.
 - [Vercel AI Gateway OpenAI-Compatible API](https://vercel.com/docs/ai-gateway/openai-compat) - OpenAI-compatible gateway endpoint for using existing OpenAI SDK clients with Vercel AI Gateway.
 - [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) - OpenAI-compatible gateway with observability, routing, and fallback workflows.

@@ -28,6 +28,8 @@ for (const text of [
   "openai-compatible-agent-memory-kit",
   "browser-use-openai-compatible-operator-kit",
   "openwebui-openai-compatible-setup-wizard",
+  "openai-compatible-model-route-decider",
+  "litellm-openai-compatible-config-wizard",
   "openai-compatible-json-mode-validator",
   "openai-compatible-rate-limit-retry-kit",
   "https://docs.litellm.ai/",

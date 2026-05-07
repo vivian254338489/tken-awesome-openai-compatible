@@ -28,6 +28,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
 | Add fallback between providers/models | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) |
+| Configure LiteLLM routing and fallback | [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) |
 | Connect Open WebUI | [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) |
 | Configure VS Code / Continue | [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) |
 | Use DeepSeek/Qwen-style models from compatible clients | [DeepSeek/Qwen OpenAI-Compatible Guide](https://github.com/vivian254338489/deepseek-qwen-openai-compatible-guide) |

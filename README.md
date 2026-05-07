@@ -23,6 +23,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Need | Start here |
 | --- | --- |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
+| Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
@@ -66,6 +67,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 ## Cost, Monitoring, And Troubleshooting
 
 - [AI API Cost Calculator](https://github.com/vivian254338489/tken-ai-api-cost-calculator) - static calculator, live demo included.
+- [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
 - [TKEN API Cost Calculator](https://github.com/vivian254338489/tken-api-cost-calculator) - compare premium-only usage against routed usage.
 - [TKEN API Health Monitor](https://github.com/vivian254338489/tken-api-health-monitor) - CLI and local status page.
 - [TKEN AI API Status Page Template](https://github.com/vivian254338489/tken-ai-api-status-page-template) - status page template.

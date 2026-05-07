@@ -62,6 +62,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
 | Validate JSON mode and structured outputs | [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) |
 | Cook JSON mode and schema-shaped outputs | [JSON Mode Structured Output Cookbook](https://github.com/vivian254338489/json-mode-structured-output-cookbook) |
+| Compare structured-output behavior across providers | [Structured Output Compat Matrix](https://github.com/vivian254338489/structured-output-compat-matrix) |
 | Add 429 retry, backoff, and fallback handling | [OpenAI-Compatible Rate Limit Retry Kit](https://github.com/vivian254338489/openai-compatible-rate-limit-retry-kit) |
 | Connect Open WebUI | [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) |
 | Configure VS Code / Continue | [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) |
@@ -150,6 +151,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
 - [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) - JSON mode, structured output, and schema validation compatibility checks.
 - [JSON Mode Structured Output Cookbook](https://github.com/vivian254338489/json-mode-structured-output-cookbook) - provider-neutral recipes for valid JSON parsing, schema validation, and narrow repair prompts across compatible gateways.
+- [Structured Output Compat Matrix](https://github.com/vivian254338489/structured-output-compat-matrix) - offline compatibility matrix for strict JSON Schema, response schema, JSON mode, and structured-output observations across compatible providers.
 - [OpenAI-Compatible Rate Limit Retry Kit](https://github.com/vivian254338489/openai-compatible-rate-limit-retry-kit) - 429, timeout, backoff, jitter, and fallback `base_url` examples.
 - [TKEN API Cost Calculator](https://github.com/vivian254338489/tken-api-cost-calculator) - compare premium-only usage against routed usage.
 - [TKEN API Health Monitor](https://github.com/vivian254338489/tken-api-health-monitor) - CLI and local status page.

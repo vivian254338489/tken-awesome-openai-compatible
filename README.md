@@ -16,12 +16,17 @@ Start here:
 
 https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=fast_start_endpoint
 
+Browse the agent tooling landing page:
+
+https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/
+
 Disclosure: this list is maintained by TKEN-related tooling contributors and includes TKEN projects. Most resources are designed to stay useful with other compatible providers after you verify their docs and terms.
 
 ## Pick By What You Need
 
 | Need | Start here |
 | --- | --- |
+| Browse agent, MCP, and OpenAI-compatible tooling by workflow | [OpenAI-Compatible Agent Tooling Landing](https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/) |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
 | Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
@@ -51,6 +56,21 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Connect Open WebUI | [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) |
 | Configure VS Code / Continue | [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) |
 | Use DeepSeek/Qwen-style models from compatible clients | [DeepSeek/Qwen OpenAI-Compatible Guide](https://github.com/vivian254338489/deepseek-qwen-openai-compatible-guide) |
+
+## Route Map
+
+Use this list as a workflow map, not only a catalog:
+
+| Workflow | Useful sequence |
+| --- | --- |
+| Validate a new `base_url` | Endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
+| Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
+| Set up a local operator or assistant | Agent skills pack -> agent memory kit -> MCP server -> Claude Desktop MCP bridge kit |
+| Add a Web UI to a gateway | Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
+| Estimate before routing production traffic | Cost calculator -> model router bench lite -> health monitor -> status page template |
+| Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
+
+Each route should still be tested against the provider docs, terms, pricing, rate limits, and feature support you actually plan to use.
 
 ## Core Stack
 
@@ -126,6 +146,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 
 ## Launch And Content Assets
 
+- [OpenAI-Compatible Agent Tooling Landing](https://github.com/vivian254338489/openai-compatible-agent-tooling-landing) - GitHub Pages landing page for agent, MCP, Cursor, Continue, Open WebUI, LiteLLM, and TKEN evaluation paths.
 - [TKEN Reddit Launch Pack](https://github.com/vivian254338489/tken-reddit-launch-pack) - soft-launch drafts.
 - [TKEN AI API Video Script Pack](https://github.com/vivian254338489/tken-ai-api-video-script-pack) - short-form video scripts.
 - [TKEN AI API SEO Landing Kit](https://github.com/vivian254338489/tken-ai-api-seo-landing-kit) - static SEO landing pages.

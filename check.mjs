@@ -9,6 +9,7 @@ const required = [
   "CURATION.md",
   "docs/utm-links.md",
   "docs/publish-checklist.md",
+  "docs/submission-queue.md",
   ".github/ISSUE_TEMPLATE/resource-suggestion.md",
   ".github/ISSUE_TEMPLATE/link-or-claim-fix.md"
 ];
@@ -23,6 +24,12 @@ for (const text of [
   "Awesome OpenAI-Compatible",
   "tken-one-click-ai-stack",
   "Disclosure",
+  "openai-compatible-agent-tooling-landing",
+  "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
+  "Route Map",
+  "Validate a new `base_url`",
+  "Move an app from one provider route to several",
+  "Set up a local operator or assistant",
   "openai-compatible-mcp-server",
   "agent-skills-openai-compatible-pack",
   "openai-compatible-agent-memory-kit",
@@ -61,6 +68,14 @@ const contributing = fs.readFileSync("CONTRIBUTING.md", "utf8");
 for (const text of ["Good Additions", "TKEN-Related Entries", "Local Checks"]) {
   if (!contributing.includes(text)) {
     console.error(`CONTRIBUTING.md missing expected text: ${text}`);
+    process.exit(1);
+  }
+}
+
+const submissionQueue = fs.readFileSync("docs/submission-queue.md", "utf8");
+for (const text of ["Required Disclosure", "Target Queue", "Pre-Submission QA"]) {
+  if (!submissionQueue.includes(text)) {
+    console.error(`docs/submission-queue.md missing expected text: ${text}`);
     process.exit(1);
   }
 }

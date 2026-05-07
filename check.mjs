@@ -19,7 +19,18 @@ if (missing.length) {
 }
 
 const readme = fs.readFileSync("README.md", "utf8");
-for (const text of ["Awesome OpenAI-Compatible", "tken-one-click-ai-stack", "Disclosure"]) {
+for (const text of [
+  "Awesome OpenAI-Compatible",
+  "tken-one-click-ai-stack",
+  "Disclosure",
+  "openai-compatible-mcp-server",
+  "https://docs.litellm.ai/",
+  "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible",
+  "https://vercel.com/docs/ai-gateway/openai-compat",
+  "https://docs.helicone.ai/gateway/overview",
+  "https://docs.langchain.com/oss/javascript/integrations/chat/openai",
+  "https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html"
+]) {
   if (!readme.includes(text)) {
     console.error(`README missing expected text: ${text}`);
     process.exit(1);

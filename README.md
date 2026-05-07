@@ -32,6 +32,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Build a FastAPI compatible gateway | [TKEN FastAPI AI Gateway Starter](https://github.com/vivian254338489/tken-fastapi-ai-gateway-starter) |
 | Connect LangChain to a custom endpoint | [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) |
 | Configure Cursor or Windsurf base URLs | [TKEN Cursor/Windsurf Base URL Guide](https://github.com/vivian254338489/tken-cursor-windsurf-base-url-guide) |
+| Give agents an MCP endpoint diagnostic tool | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) |
 | Test embeddings and RAG setup | [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) |
 | Test streaming and tool-call behavior | [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) |
 | Run a compatibility smoke-test matrix | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) |
@@ -60,6 +61,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 ## Client And Tool Config
 
 - [TKEN VS Code Continue Config Pack](https://github.com/vivian254338489/tken-vscode-continue-config-pack) - Continue/VS Code-style config examples.
+- [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) - MCP tools for endpoint info, model-list checks, chat probes, embeddings probes, and compatibility reports.
 - [OpenAI-Compatible LangChain Starter](https://github.com/vivian254338489/openai-compatible-langchain-starter) - LangChain JS/Python custom OpenAI-compatible base URL examples.
 - [TKEN Codex Client Kit](https://github.com/vivian254338489/tken-codex-client-kit) - Codex-style client config kit.
 - [TKEN OpenClaw Client Kit](https://github.com/vivian254338489/tken-openclaw-client-kit) - OpenClaw-style provider config kit.
@@ -68,6 +70,12 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 
 ## Open WebUI, LiteLLM, And Gateways
 
+- [LiteLLM](https://docs.litellm.ai/) - proxy and SDK for using many LLM providers through OpenAI-style request and response formats, with routing, retry, fallback, and spend controls.
+- [Open WebUI OpenAI-Compatible Connections](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) - setup guide for connecting Open WebUI to compatible cloud providers, local servers, and gateway URLs.
+- [Vercel AI Gateway OpenAI-Compatible API](https://vercel.com/docs/ai-gateway/openai-compat) - OpenAI-compatible gateway endpoint for using existing OpenAI SDK clients with Vercel AI Gateway.
+- [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) - OpenAI-compatible gateway with observability, routing, and fallback workflows.
+- [LangChain ChatOpenAI custom base URL](https://docs.langchain.com/oss/javascript/integrations/chat/openai) - JavaScript ChatOpenAI configuration for compatible providers and proxies that use custom API base URLs.
+- [vLLM OpenAI-Compatible Server](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html) - local or hosted model server exposing OpenAI-compatible completions and chat APIs.
 - [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) - Open WebUI Pipelines connector.
 - [TKEN Open WebUI Provider Pack](https://github.com/vivian254338489/tken-openwebui-provider-pack) - Open WebUI-style provider settings.
 - [TKEN LiteLLM Router Config Pack](https://github.com/vivian254338489/tken-litellm-router-config-pack) - LiteLLM-style low-cost default and premium fallback configs.

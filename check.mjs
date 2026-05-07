@@ -27,6 +27,7 @@ for (const text of [
   "openai-compatible-agent-tooling-landing",
   "mcp-openai-gateway-starter",
   "claude-desktop-mcpb-starter",
+  "open-webui-gateway-recipes",
   "https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/",
   "Route Map",
   "Validate a new `base_url`",

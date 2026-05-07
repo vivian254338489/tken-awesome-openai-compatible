@@ -27,6 +27,9 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | If you are trying to... | Use this first | Then test an endpoint |
 | --- | --- | --- |
 | Switch an app to a new OpenAI-compatible `base_url` | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_switch_endpoint |
+| Compare a provider switch before changing code | [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_provider_switch |
+| Put budget guardrails around a compatible gateway | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_cost_guardrail |
+| Compare gateway routes before an agent rollout | [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_gateway_eval |
 | Estimate route cost before production | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_usage_observability |
 | Debug MCP or agent tool calls | [FastMCP OpenAI-Compatible Tool Router Kit](https://github.com/vivian254338489/fastmcp-openai-compatible-tool-router-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_mcp_tools |
 | Share logs safely while debugging a gateway | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_log_redaction |
@@ -42,12 +45,15 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Package a Claude Desktop MCPB extension | [Claude Desktop MCPB Starter](https://github.com/vivian254338489/claude-desktop-mcpb-starter) |
 | One local stack with gateway + Web UIs | [TKEN One-Click AI Stack](https://github.com/vivian254338489/tken-one-click-ai-stack) |
 | Connect Open WebUI to a unified gateway | [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) |
+| Compare a provider switch before changing `base_url` | [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) |
 | Produce an OpenAI-compatible API conformance report | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) |
+| Compare gateway routes with offline eval cases | [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) |
 | Test whether a custom endpoint works | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) |
 | Copy-paste routing recipes | [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) |
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
 | Edit model pricing metadata and budget-routing notes | [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) |
 | Diff LiteLLM-style pricing and metadata snapshots | [LiteLLM Pricing Metadata Diff](https://github.com/vivian254338489/litellm-pricing-metadata-diff) |
+| Put cost guardrails around gateway usage logs | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) |
 | Analyze gateway usage, costs, latency, and errors offline | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) |
 | Redact compatible request logs before sharing bug reports | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
@@ -92,12 +98,13 @@ Use this list as a workflow map, not only a catalog:
 
 | Workflow | Useful sequence |
 | --- | --- |
-| Validate a new `base_url` | API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
+| Validate a new `base_url` | Provider switch checklist -> API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
 | Debug agent tool calls | OpenAPI MCP contract check kit -> FastMCP tool router kit -> MCP tool schema lab -> MCP tool schema budget kit -> tool-call replay lab -> streaming/tool-call checks -> API conformance kit |
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
-| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> LiteLLM pricing metadata diff -> usage observability starter -> log redaction kit -> model router bench lite -> health monitor -> status page template |
+| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> cost guardrail kit -> LiteLLM pricing metadata diff -> usage observability starter -> log redaction kit -> model router bench lite -> health monitor -> status page template |
+| Compare gateway routes before an agent rollout | Gateway eval harness -> API conformance kit -> tool-call replay lab -> usage observability starter -> log redaction kit |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
 Each route should still be tested against the provider docs, terms, pricing, rate limits, and feature support you actually plan to use.
@@ -113,7 +120,9 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 
 - [OpenAI-Compatible Routing Cookbook](https://github.com/vivian254338489/openai-compatible-routing-cookbook) - task routing, fallback, custom base URLs, SDK migration, security checks.
 - [TKEN OpenAI-Compatible Examples](https://github.com/vivian254338489/tken-openai-compatible-examples) - Node.js, Python, and cURL examples.
+- [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) - offline migration checklist for base URL changes, SDK env vars, model aliases, route support, and rollback.
 - [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) - offline-first smoke-test matrix for custom `base_url`, model compatibility, streaming, JSON, embeddings, tools, and error behavior.
+- [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) - offline eval-case and route-fixture comparison for compatible gateways before app or agent rollout.
 - [OpenAI-Compatible Embeddings Starter](https://github.com/vivian254338489/openai-compatible-embeddings-starter) - embeddings, vector search, and RAG starter examples.
 - [OpenAI-Compatible Streaming Tool Calls](https://github.com/vivian254338489/openai-compatible-streaming-tool-calls) - streaming SSE, tool calls, JSON mode, and custom base URL checks.
 - [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) - model list, chat, embeddings, and streaming smoke-test matrix.
@@ -176,6 +185,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 
 - [AI API Cost Calculator](https://github.com/vivian254338489/tken-ai-api-cost-calculator) - static calculator, live demo included.
 - [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) - editable model metadata, example pricing table, and budget-routing notes for compatible gateways.
+- [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) - offline budget policy checks for compatible gateway usage logs before costs surprise a team.
 - [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
 - [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) - JSON mode, structured output, and schema validation compatibility checks.
 - [JSON Mode Structured Output Cookbook](https://github.com/vivian254338489/json-mode-structured-output-cookbook) - provider-neutral recipes for valid JSON parsing, schema validation, and narrow repair prompts across compatible gateways.

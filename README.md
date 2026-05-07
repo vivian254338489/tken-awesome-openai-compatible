@@ -30,6 +30,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Compare a provider switch before changing code | [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_provider_switch |
 | Add CI checks to a provider migration PR | [OpenAI-Compatible Provider Migration CI Kit](https://github.com/vivian254338489/openai-compatible-provider-migration-ci-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_provider_migration_ci |
 | Catch prompt regressions before a route change ships | [OpenAI-Compatible Prompt Regression CI Kit](https://github.com/vivian254338489/openai-compatible-prompt-regression-ci-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_prompt_regression_ci |
+| Reconcile usage logs with balance or invoice rows | [OpenAI-Compatible Billing Reconciliation Kit](https://github.com/vivian254338489/openai-compatible-billing-reconciliation-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_billing_reconciliation |
 | Put budget guardrails around a compatible gateway | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_cost_guardrail |
 | Compare gateway routes before an agent rollout | [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_gateway_eval |
 | Estimate route cost before production | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_usage_observability |
@@ -57,6 +58,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Compare editable cost/latency assumptions | [Model Router Bench Lite](https://github.com/vivian254338489/model-router-bench-lite) |
 | Edit model pricing metadata and budget-routing notes | [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) |
 | Diff LiteLLM-style pricing and metadata snapshots | [LiteLLM Pricing Metadata Diff](https://github.com/vivian254338489/litellm-pricing-metadata-diff) |
+| Reconcile usage logs against ledger rows | [OpenAI-Compatible Billing Reconciliation Kit](https://github.com/vivian254338489/openai-compatible-billing-reconciliation-kit) |
 | Put cost guardrails around gateway usage logs | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) |
 | Analyze gateway usage, costs, latency, and errors offline | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) |
 | Redact compatible request logs before sharing bug reports | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) |
@@ -107,7 +109,7 @@ Use this list as a workflow map, not only a catalog:
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
-| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> cost guardrail kit -> LiteLLM pricing metadata diff -> usage observability starter -> log redaction kit -> model router bench lite -> health monitor -> status page template |
+| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> billing reconciliation kit -> cost guardrail kit -> LiteLLM pricing metadata diff -> usage observability starter -> log redaction kit -> model router bench lite -> health monitor -> status page template |
 | Compare gateway routes before an agent rollout | Gateway eval harness -> API conformance kit -> tool-call replay lab -> usage observability starter -> log redaction kit |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
@@ -191,6 +193,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 
 - [AI API Cost Calculator](https://github.com/vivian254338489/tken-ai-api-cost-calculator) - static calculator, live demo included.
 - [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) - editable model metadata, example pricing table, and budget-routing notes for compatible gateways.
+- [OpenAI-Compatible Billing Reconciliation Kit](https://github.com/vivian254338489/openai-compatible-billing-reconciliation-kit) - offline usage-log and billing-ledger reconciliation for compatible gateways and balance-based API accounts.
 - [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) - offline budget policy checks for compatible gateway usage logs before costs surprise a team.
 - [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
 - [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) - JSON mode, structured output, and schema validation compatibility checks.

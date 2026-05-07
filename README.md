@@ -22,6 +22,15 @@ https://vivian254338489.github.io/openai-compatible-agent-tooling-landing/
 
 Disclosure: this list is maintained by TKEN-related tooling contributors and includes TKEN projects. Most resources are designed to stay useful with other compatible providers after you verify their docs and terms.
 
+## Decision Shortcuts
+
+| If you are trying to... | Use this first | Then test an endpoint |
+| --- | --- | --- |
+| Switch an app to a new OpenAI-compatible `base_url` | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_switch_endpoint |
+| Estimate route cost before production | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_usage_observability |
+| Debug MCP or agent tool calls | [FastMCP OpenAI-Compatible Tool Router Kit](https://github.com/vivian254338489/fastmcp-openai-compatible-tool-router-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_mcp_tools |
+| Share logs safely while debugging a gateway | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_log_redaction |
+
 ## Pick By What You Need
 
 | Need | Start here |

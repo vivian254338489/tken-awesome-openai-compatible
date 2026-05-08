@@ -29,6 +29,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Switch an app to a new OpenAI-compatible `base_url` | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_switch_endpoint |
 | Compare a provider switch before changing code | [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_provider_switch |
 | Add CI checks to a provider migration PR | [OpenAI-Compatible Provider Migration CI Kit](https://github.com/vivian254338489/openai-compatible-provider-migration-ci-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_provider_migration_ci |
+| Rotate API keys before switching a gateway route | [OpenAI-Compatible API Key Rotation Kit](https://github.com/vivian254338489/openai-compatible-api-key-rotation-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_api_key_rotation |
 | Catch prompt regressions before a route change ships | [OpenAI-Compatible Prompt Regression CI Kit](https://github.com/vivian254338489/openai-compatible-prompt-regression-ci-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_prompt_regression_ci |
 | Reconcile usage logs with balance or invoice rows | [OpenAI-Compatible Billing Reconciliation Kit](https://github.com/vivian254338489/openai-compatible-billing-reconciliation-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_billing_reconciliation |
 | Put budget guardrails around a compatible gateway | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_cost_guardrail |
@@ -50,6 +51,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Connect Open WebUI to a unified gateway | [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) |
 | Compare a provider switch before changing `base_url` | [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) |
 | Add provider migration checks to CI | [OpenAI-Compatible Provider Migration CI Kit](https://github.com/vivian254338489/openai-compatible-provider-migration-ci-kit) |
+| Check API key rotation and env hygiene before cutover | [OpenAI-Compatible API Key Rotation Kit](https://github.com/vivian254338489/openai-compatible-api-key-rotation-kit) |
 | Catch prompt and output regressions in CI | [OpenAI-Compatible Prompt Regression CI Kit](https://github.com/vivian254338489/openai-compatible-prompt-regression-ci-kit) |
 | Produce an OpenAI-compatible API conformance report | [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) |
 | Compare gateway routes with offline eval cases | [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) |
@@ -104,7 +106,7 @@ Use this list as a workflow map, not only a catalog:
 
 | Workflow | Useful sequence |
 | --- | --- |
-| Validate a new `base_url` | Provider switch checklist -> provider migration CI kit -> prompt regression CI kit -> API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
+| Validate a new `base_url` | Provider switch checklist -> provider migration CI kit -> API key rotation kit -> prompt regression CI kit -> API conformance kit -> endpoint tester -> SDK smoke tests -> JSON mode validator -> streaming/tool-call checks |
 | Debug agent tool calls | OpenAPI MCP contract check kit -> FastMCP tool router kit -> MCP tool schema lab -> MCP tool schema budget kit -> tool-call replay lab -> streaming/tool-call checks -> API conformance kit |
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
@@ -128,6 +130,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [TKEN OpenAI-Compatible Examples](https://github.com/vivian254338489/tken-openai-compatible-examples) - Node.js, Python, and cURL examples.
 - [OpenAI-Compatible Provider Switch Checklist](https://github.com/vivian254338489/openai-compatible-provider-switch-checklist) - offline migration checklist for base URL changes, SDK env vars, model aliases, route support, and rollback.
 - [OpenAI-Compatible Provider Migration CI Kit](https://github.com/vivian254338489/openai-compatible-provider-migration-ci-kit) - CI-friendly provider migration checks for routes, capabilities, model aliases, and rollback readiness.
+- [OpenAI-Compatible API Key Rotation Kit](https://github.com/vivian254338489/openai-compatible-api-key-rotation-kit) - offline API key rotation, env hygiene, smoke-test, rollback, and revoke readiness checks.
 - [OpenAI-Compatible Prompt Regression CI Kit](https://github.com/vivian254338489/openai-compatible-prompt-regression-ci-kit) - offline prompt regression CI checks for output shape, keywords, route capabilities, and model alias drift.
 - [OpenAI-Compatible API Conformance Kit](https://github.com/vivian254338489/openai-compatible-api-conformance-kit) - offline-first smoke-test matrix for custom `base_url`, model compatibility, streaming, JSON, embeddings, tools, and error behavior.
 - [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) - offline eval-case and route-fixture comparison for compatible gateways before app or agent rollout.

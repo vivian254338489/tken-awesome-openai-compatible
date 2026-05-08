@@ -39,6 +39,21 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Debug MCP or agent tool calls | [FastMCP OpenAI-Compatible Tool Router Kit](https://github.com/vivian254338489/fastmcp-openai-compatible-tool-router-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_mcp_tools |
 | Share logs safely while debugging a gateway | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_log_redaction |
 
+## GitHub Search Intent Map
+
+Use this as a quick landing map when you arrive from GitHub search, topics, or a shared repo link.
+
+| Search intent | Best first repo | Why it fits | Track the path |
+| --- | --- | --- | --- |
+| `openai-compatible endpoint tester` | [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) | Checks `base_url`, `/v1/models`, and chat completions before app wiring. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_endpoint_tester |
+| `openai compatible sdk smoke tests` | [OpenAI-Compatible SDK Smoke Tests](https://github.com/vivian254338489/openai-compatible-sdk-smoke-tests) | Covers SDK-level chat, model list, embeddings, and streaming smoke checks. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_sdk_smoke_tests |
+| `llm gateway fallback proxy` | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) | Keeps retry and failover examples outside core application logic. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_fallback_proxy |
+| `mcp openai compatible server` | [OpenAI-Compatible MCP Server](https://github.com/vivian254338489/openai-compatible-mcp-server) | Gives agent tools endpoint info, model checks, chat probes, and compatibility reports. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_mcp_server |
+| `openai compatible web ui` | [OpenWebUI TokenFlow Starter](https://github.com/vivian254338489/openwebui-tokenflow-starter) | Starts with Docker Compose and sanitized config for a gateway-backed Web UI. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_webui_gateway |
+| `ai api cost calculator` | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) | Opens an editable cost-estimation path before committing a route policy. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_cost_calculator |
+| `json mode structured output validator` | [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) | Tests JSON mode and schema-shaped output expectations before production usage. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_json_validator |
+| `continue cursor openai base url` | [Continue OpenAI-Compatible Config Wizard](https://github.com/vivian254338489/continue-openai-compatible-config-wizard) | Generates local assistant config examples for compatible endpoint routing. | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_continue_config |
+
 ## Pick By What You Need
 
 | Need | Start here |

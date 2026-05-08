@@ -35,6 +35,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Put budget guardrails around a compatible gateway | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_cost_guardrail |
 | Compare gateway routes before an agent rollout | [OpenAI-Compatible Gateway Eval Harness](https://github.com/vivian254338489/openai-compatible-gateway-eval-harness) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_gateway_eval |
 | Estimate route cost before production | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_usage_observability |
+| Drill fallback, rollback, and support notes before production traffic depends on a route | [OpenAI-Compatible SLA Incident Drill Kit](https://github.com/vivian254338489/openai-compatible-sla-incident-drill-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_sla_incident_drill |
 | Debug MCP or agent tool calls | [FastMCP OpenAI-Compatible Tool Router Kit](https://github.com/vivian254338489/fastmcp-openai-compatible-tool-router-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_mcp_tools |
 | Share logs safely while debugging a gateway | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) | https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_log_redaction |
 
@@ -63,6 +64,7 @@ Disclosure: this list is maintained by TKEN-related tooling contributors and inc
 | Reconcile usage logs against ledger rows | [OpenAI-Compatible Billing Reconciliation Kit](https://github.com/vivian254338489/openai-compatible-billing-reconciliation-kit) |
 | Put cost guardrails around gateway usage logs | [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) |
 | Analyze gateway usage, costs, latency, and errors offline | [LLM Gateway Usage Observability Starter](https://github.com/vivian254338489/llm-gateway-usage-observability-starter) |
+| Run an SLA incident drill for fallback, rollback, and support readiness | [OpenAI-Compatible SLA Incident Drill Kit](https://github.com/vivian254338489/openai-compatible-sla-incident-drill-kit) |
 | Redact compatible request logs before sharing bug reports | [OpenAI-Compatible Log Redaction Kit](https://github.com/vivian254338489/openai-compatible-log-redaction-kit) |
 | Test a live cost calculator | [AI API Cost Calculator](https://vivian254338489.github.io/tken-ai-api-cost-calculator/) |
 | Add fallback between providers/models | [AI Model Fallback Proxy](https://github.com/vivian254338489/ai-model-fallback-proxy) |
@@ -111,7 +113,7 @@ Use this list as a workflow map, not only a catalog:
 | Move an app from one provider route to several | Routing cookbook -> model route decider -> fallback proxy -> rate-limit retry kit |
 | Set up a local operator or assistant | Agent skills pack -> agent memory kit -> memory portability kit -> MCP server -> Claude Desktop MCP bridge kit |
 | Add a Web UI to a gateway | OpenWebUI TokenFlow starter -> Open WebUI setup wizard -> TKEN Open WebUI Pipelines -> provider pack -> one-click AI stack |
-| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> billing reconciliation kit -> cost guardrail kit -> LiteLLM pricing metadata diff -> usage observability starter -> log redaction kit -> model router bench lite -> health monitor -> status page template |
+| Estimate before routing production traffic | Cost calculator -> pricing metadata kit -> billing reconciliation kit -> cost guardrail kit -> LiteLLM pricing metadata diff -> usage observability starter -> SLA incident drill kit -> log redaction kit -> model router bench lite -> health monitor -> status page template |
 | Compare gateway routes before an agent rollout | Gateway eval harness -> API conformance kit -> tool-call replay lab -> usage observability starter -> log redaction kit |
 | Prepare a public or internal integration guide | Cursor/Continue/LiteLLM config wizard -> screenshots/QA docs -> publish checklist |
 
@@ -198,6 +200,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [AI Gateway Pricing Metadata Kit](https://github.com/vivian254338489/ai-gateway-pricing-metadata-kit) - editable model metadata, example pricing table, and budget-routing notes for compatible gateways.
 - [OpenAI-Compatible Billing Reconciliation Kit](https://github.com/vivian254338489/openai-compatible-billing-reconciliation-kit) - offline usage-log and billing-ledger reconciliation for compatible gateways and balance-based API accounts.
 - [OpenAI-Compatible Cost Guardrail Kit](https://github.com/vivian254338489/openai-compatible-cost-guardrail-kit) - offline budget policy checks for compatible gateway usage logs before costs surprise a team.
+- [OpenAI-Compatible SLA Incident Drill Kit](https://github.com/vivian254338489/openai-compatible-sla-incident-drill-kit) - offline SLA drill checks for latency, streaming, fallback, rollback, and support/status-page readiness.
 - [OpenAI-Compatible Endpoint Tester](https://github.com/vivian254338489/openai-compatible-endpoint-tester) - CLI checks for `base_url`, `/v1/models`, and `/v1/chat/completions`.
 - [OpenAI-Compatible JSON Mode Validator](https://github.com/vivian254338489/openai-compatible-json-mode-validator) - JSON mode, structured output, and schema validation compatibility checks.
 - [JSON Mode Structured Output Cookbook](https://github.com/vivian254338489/json-mode-structured-output-cookbook) - provider-neutral recipes for valid JSON parsing, schema validation, and narrow repair prompts across compatible gateways.

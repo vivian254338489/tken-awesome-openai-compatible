@@ -24,6 +24,14 @@ https://www.tken.shop/v1
 | Decision shortcut: usage observability | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_usage_observability` | Track visitors interested in cost, route, latency, and error review. |
 | Decision shortcut: MCP tools | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_mcp_tools` | Track visitors debugging MCP and agent tool routing. |
 | Decision shortcut: log redaction | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=decision_log_redaction` | Track visitors preparing safe gateway bug reports. |
+| Search intent: endpoint tester | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_endpoint_tester` | Track GitHub-search visitors looking for endpoint compatibility checks. |
+| Search intent: SDK smoke tests | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_sdk_smoke_tests` | Track visitors looking for SDK-level compatibility smoke tests. |
+| Search intent: fallback proxy | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_fallback_proxy` | Track visitors looking for retry, failover, and fallback proxy examples. |
+| Search intent: MCP server | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_mcp_server` | Track visitors looking for MCP diagnostics around compatible endpoints. |
+| Search intent: Web UI gateway | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_webui_gateway` | Track visitors looking for Open WebUI or ChatGPT-style gateway setup. |
+| Search intent: cost calculator | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_cost_calculator` | Track visitors looking for editable AI API cost estimates. |
+| Search intent: JSON validator | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_json_validator` | Track visitors looking for JSON mode or structured-output checks. |
+| Search intent: Continue config | `https://www.tken.shop/?utm_source=github&utm_medium=awesome_readme&utm_campaign=customer_acquisition&utm_content=search_continue_config` | Track visitors looking for Continue, Cursor, or base URL config examples. |
 | Repo homepage | `https://www.tken.shop/` | Keep GitHub metadata canonical and simple. |
 
 ## Rules

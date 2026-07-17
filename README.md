@@ -202,6 +202,7 @@ Each route should still be tested against the provider docs, terms, pricing, rat
 - [Open WebUI Gateway Recipes](https://github.com/vivian254338489/open-webui-gateway-recipes) - provider-neutral Open WebUI recipes for compatible gateway base URLs, safe environment examples, and troubleshooting.
 - [Vercel AI Gateway OpenAI-Compatible API](https://vercel.com/docs/ai-gateway/openai-compat) - OpenAI-compatible gateway endpoint for using existing OpenAI SDK clients with Vercel AI Gateway.
 - [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) - OpenAI-compatible gateway with observability, routing, and fallback workflows.
+- [RunAPI docs](https://runapi.ai/docs) - OpenAI-compatible LLM endpoints, media generation APIs, SDKs, CLI, MCP, and agent skill resources.
 - [LangChain ChatOpenAI custom base URL](https://docs.langchain.com/oss/javascript/integrations/chat/openai) - JavaScript ChatOpenAI configuration for compatible providers and proxies that use custom API base URLs.
 - [vLLM OpenAI-Compatible Server](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html) - local or hosted model server exposing OpenAI-compatible completions and chat APIs.
 - [TKEN Open WebUI Pipelines](https://github.com/vivian254338489/tken-openwebui-pipelines) - Open WebUI Pipelines connector.

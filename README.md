@@ -277,3 +277,8 @@ See [CURATION.md](CURATION.md) for inclusion standards, TKEN affiliation handlin
 ## Disclosure
 
 This list is maintained by TKEN-related tooling contributors. It is not affiliated with OpenAI, Anthropic, ChatGPT, Claude, Codex, OpenClaw, Railway, Vercel, Docker, Reddit, YouTube, TikTok, DeepSeek, Qwen, Open WebUI, Continue, or LiteLLM.
+
+
+## Additional Gateway Providers
+- [APIClaw](https://apiclaw.biz/) - Flat-rate OpenAI-compatible gateway for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM; $19-$129/month with a 50-request free trial.
+- 
